@@ -1,0 +1,16 @@
+:root {
+  --primary-text-color: rgba();
+  --title-text-color: #000000;
+  --accent-color: teal;
+  --primary-bg-color: #ffffff;
+}
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}

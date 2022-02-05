@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-home work-02
+# goit-markup-hw-01
+ДЗ № 1 HTML-разметка макета страницы
