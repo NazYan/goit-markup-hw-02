@@ -1,18 +1,15 @@
 :root {
   --primary-font-family: Roboto, sans-serif;
   --secondary-font-family: Raleway, sans-serif;
-  --primary-text-color-theme-light: ;
-  --primary-text-color-theme-dark: ;
-  --secondary-text-color-theme-light: ;
-  --secondary-text-color-theme-dark: ;
-  --accent-color: teal;
-  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
   --primary-bg-color: #ffffff;
 }
 body {
   font-family: var(--primary-font-family);
-  background-color: #fff;
-  color: var(--primary-text-color);
+  color: var(--main-text-color);
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -25,44 +22,50 @@ body {
   background: #ffffff;
 }
 .logo link {
-  font-family: var(--secondary-font-family)
+  font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-text-color);
+}
+.accentlogo {
+  color: var(--accent-color);
 }
 .nav-list-link {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-text-color);
+}
+.nav-list-link-current {
+  color: var(--accent-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contact-mail-link link {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contact-mail-link:hover,
 .contact-mail-link link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contact-phone-number {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* end header */
 /* main page */
@@ -70,7 +73,7 @@ body {
   background: #2f303a;
 }
 .main-caption-name {
-  font-family: Roboto, sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -110,71 +113,121 @@ body {
   border-radius: 4px;
 }
 .feature-titel {
-font-family: var(--primary-font-family);
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;  
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }
 .feature-description {
-font-family: var(--primary-font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 .employ-titel {
-font-family: var(--primary-font-family);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #212121;  
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 .team-titel {
-font-family: var(--primary-font-family);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-color: #212121;
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 .team-member-name {
-font-family: var(--primary-font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #212121;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 .team-position-description {
-font-family: var(--primary-font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #757575;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* footer */
 .footer {
-background: #2F303A;
+  background: #2f303a;
+}
+.logo-blue {
+  color: var(--accent-color);
+}
+.logo-white {
+  color: #ffffff;
 }
 .adress-description {
-font-family: var(--primary-font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .contact-list-description {
-font-family: var(--primary-font-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+.btn-current {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--accent-color);
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.example {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.example-titel {
+  font-family: var(--primary-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
