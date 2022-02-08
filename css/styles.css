@@ -38,7 +38,7 @@ body {
   color: var(--main-text-color);
 }
 .nav-list-link-current {
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
