@@ -21,6 +21,13 @@ body {
 .header {
   background: #ffffff;
 }
+.logo link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 .accentlogo {
   font-family: var(--secondary-font-family);
   color: var(--accent-color);
@@ -38,7 +45,7 @@ body {
   color: var(--main-text-color);
 }
 .nav-list-link-current {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -53,7 +60,7 @@ color: var(--accent-color);
   color: var(--secondary-text-color);
 }
 .contact-mail-link:hover,
-.contact-mail-link link:focus {
+.contact-mail-link:focus {
   color: var(--accent-color);
 }
 .contact-phone-number {
